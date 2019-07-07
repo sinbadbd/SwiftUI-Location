@@ -19,17 +19,19 @@ struct LocationRow : View {
                 .font(.title)
             ScrollView (showsHorizontalIndicator: false){
                 HStack {
-                    ForEach (self.lands.identified(by: \.id)) { landmark in
-                        LocationView(landmark: landmark)
-                            .frame(width: 300)
-                            .padding(.trailing, 30)
+                    ForEach (self.lands.identified(by: \.name)) { landmark in
+                        
+                        NavigationButton(destination: LocationDetails(landmark: landmark)) {
+                            LocationView(landmark: landmark)
+                                .frame(width: 300)
+                                .padding(.trailing, 30)
+                        }
                     }
                 }
             }
         }
-        .padding(20)
     }
-}
+} 
 
 #if DEBUG
 struct LocationRow_Previews : PreviewProvider {

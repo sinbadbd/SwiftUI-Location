@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A1A845EC22D246840037850E /* LocationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A845EB22D246840037850E /* LocationRow.swift */; };
+		A1A845EE22D25E650037850E /* LocationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A845ED22D25E650037850E /* LocationDetails.swift */; };
 		A1DE04DC22D1267A00DE92D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE04DB22D1267A00DE92D2 /* AppDelegate.swift */; };
 		A1DE04DE22D1267A00DE92D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE04DD22D1267A00DE92D2 /* SceneDelegate.swift */; };
 		A1DE04E022D1267B00DE92D2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE04DF22D1267B00DE92D2 /* HomeView.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		A1A845EB22D246840037850E /* LocationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRow.swift; sourceTree = "<group>"; };
+		A1A845ED22D25E650037850E /* LocationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetails.swift; sourceTree = "<group>"; };
 		A1DE04D822D1267A00DE92D2 /* CoffeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1DE04DB22D1267A00DE92D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1DE04DD22D1267A00DE92D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				A1DE04DF22D1267B00DE92D2 /* HomeView.swift */,
 				A1DE051422D1299100DE92D2 /* LocationView.swift */,
 				A1A845EB22D246840037850E /* LocationRow.swift */,
+				A1A845ED22D25E650037850E /* LocationDetails.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				A1A845EC22D246840037850E /* LocationRow.swift in Sources */,
 				A1DE04E022D1267B00DE92D2 /* HomeView.swift in Sources */,
 				A1DE04F622D1290300DE92D2 /* Landmark.swift in Sources */,
+				A1A845EE22D25E650037850E /* LocationDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
