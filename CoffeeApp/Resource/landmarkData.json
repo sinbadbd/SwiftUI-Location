@@ -13,6 +13,45 @@
         "imageName": "turtlerock"
     },
     {
+        "name": "Turtle Rock",
+        "category": "Featured",
+        "city": "Twentynine Palms",
+        "state": "California",
+        "id": 10044,
+        "park": "Joshua Tree National Park Lake Clark National Park and Preserve Lake Clark National Park and Preserve",
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "imageName": "turtlerock"
+    },
+    {
+        "name": "Turtle Rock",
+        "category": "Featured",
+        "city": "Twentynine Palms",
+        "state": "California",
+        "id": 10041,
+        "park": "Joshua Tree National Park Lake Clark National Park and Preserve Lake Clark National Park and Preserve",
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "imageName": "turtlerock"
+    },
+    {
+        "name": "Turtle Rock",
+        "category": "Featured",
+        "city": "Twentynine Palms",
+        "state": "California",
+        "id": 104401,
+        "park": "Joshua Tree National Park Lake Clark National Park and Preserve Lake Clark National Park and Preserve",
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "imageName": "turtlerock"
+    },
+    {
         "name": "Silver Salmon Creek",
         "category": "Lakes",
         "city": "Port Alsworth",
